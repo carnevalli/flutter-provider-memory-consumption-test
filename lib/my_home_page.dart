@@ -39,20 +39,20 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     AppGlobalState globalState = Provider.of<AppGlobalState>(context);
     
-    // JustALazyLoadingTest1 str1 = Provider.of<JustALazyLoadingTest1>(context);
-    // print(str1.title);
+    JustALazyLoadingTest1 str1 = Provider.of<JustALazyLoadingTest1>(context);
+    print(str1.title);
 
-    // JustALazyLoadingTest2 str2 = Provider.of<JustALazyLoadingTest2>(context);
-    // print(str2.title);
+    JustALazyLoadingTest2 str2 = Provider.of<JustALazyLoadingTest2>(context);
+    print(str2.title);
 
-    // JustALazyLoadingTest3 str3 = Provider.of<JustALazyLoadingTest3>(context);
-    // print(str3.title);
+    JustALazyLoadingTest3 str3 = Provider.of<JustALazyLoadingTest3>(context);
+    print(str3.title);
 
-    // JustALazyLoadingTest4 str4 = Provider.of<JustALazyLoadingTest4>(context);
-    // print(str4.title);
+    JustALazyLoadingTest4 str4 = Provider.of<JustALazyLoadingTest4>(context);
+    print(str4.title);
 
-    // JustALazyLoadingTest5 str5 = Provider.of<JustALazyLoadingTest5>(context);
-    // print(str5.title);
+    JustALazyLoadingTest5 str5 = Provider.of<JustALazyLoadingTest5>(context);
+    print(str5.title);
 
     if(!_fired) {
       setState(() {
