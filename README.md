@@ -10,6 +10,8 @@ By running Flutter in "profile" mode, from Dart DevTools, I got the following re
 
 ## get_it: ^3.1.0
 
+Code: [carnevalli/flutter-getit-memory-consumption-test](https://github.com/carnevalli/flutter-getit-memory-consumption-test)
+
 ### Results - (size, count, accumulator)
 - 1 Singleton, 1 used (24, 1, 1)
 - 2 Singletons, 1 used (24, 1, 1)
